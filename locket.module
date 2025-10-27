@@ -1,5 +1,5 @@
 #!name=Locket Gold
-#!desc=Locket Gold unlock
+#!desc=Locket Gold by Shiokarai
 
 [Script]
 revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/shiokaraii/shio/refs/heads/main/locket.js, requires-body=true, max-size=-1, timeout=120
